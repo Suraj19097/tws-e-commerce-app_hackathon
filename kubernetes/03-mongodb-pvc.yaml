@@ -6,8 +6,6 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  volumeName: mongodb-pv
-  storageClassName: ""   # <--- Explicitly disables storage class assignment
   resources:
     requests:
       storage: 5Gi
